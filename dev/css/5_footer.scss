@@ -1,0 +1,103 @@
+.footer {
+    padding: 14.9rem 0 14.3rem;
+    width: 100%;
+    position: relative;
+    background-size: cover !important;
+    background-position-x: 5px !important;
+
+    h1 {
+        margin: 0 0 12px;
+    }
+
+    p {
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+        margin: 0 0 8.5rem;
+    }
+
+
+    &__btn {
+        width: 221px;
+        border-radius: 24px;
+        background: #fff;
+        text-align: center;
+        border: solid 1px #2a2a2a;
+        align-self: center;
+        cursor: pointer;
+        font: 18px/48px latoregular, sans-serif;
+
+        &:hover {
+            background-color: #ff473e;
+            border-color: #ff473e;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+            &[value] {
+                color: #fff;
+            }
+        }
+    }
+
+    &__background {
+        width: 100%;
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: -10;
+
+        img {
+            height: 100%;
+        }
+    }
+}
+
+.wpcf7-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 516px;
+    width: 100%;
+
+
+    ::-webkit-input-placeholder {
+        color: #16145b;
+        font: 18px/1.33 latoregular, sans-serif;
+        font-weight: 500;
+
+    }
+    ::-moz-placeholder          {
+        color: #16145b;
+        font: 18px/1.33 latoregular, sans-serif;
+    }
+    :-moz-placeholder           {
+        color: #16145b;
+        font: 18px/1.33 latoregular, sans-serif;
+    }
+    :-ms-input-placeholder      {
+        color: #16145b;
+        font: 18px/1.33 latoregular, sans-serif;
+    }
+
+    textarea {
+        resize: none;
+        margin: 0 0 29px;
+    }
+    input[type="text"], input[type="email"], textarea {
+        padding: 17px;
+        border-radius: 10px;
+        border: 1px solid #16145b;
+        background: #fff;
+        font: 18px/1.33 latoregular, sans-serif;
+        color: #16145b;
+        width: 100%;
+    }
+    input {
+        margin: 0 0 7px;
+    }
+}
+
+div.wpcf7 {
+    margin: 0 auto;
+}
